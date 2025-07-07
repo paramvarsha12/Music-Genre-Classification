@@ -8,7 +8,7 @@ Check out the video : https://youtu.be/yPBmJIeTnw4
 ---
 ## How it works
 - first we create a folderr called '*data*' and under that we create another folder called '*genres_original*'
-- we then download a dataset (around 1gb) from kaggle which contains different 30 second samples of genres of music (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
+- we then download a dataset (around 1gb) from kaggle which contains different 30 second samples of genres of music (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) (around 1gb)
 - we then put the different genres inside the '*genres_original*' folder
 - we use a python library called *librosa* to load the audio file and then convert it into a MEL spectrogram (a way to represent sound in terms of frequency and time, 2d graph), then plot it and save it as png
 - in the training model part, we first start by reducing the size of the spectrogram image to (128x128) pixels and then converts it into a numpy array and stores it, (saves the genre name as its label)
